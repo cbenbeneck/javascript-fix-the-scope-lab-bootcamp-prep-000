@@ -14,8 +14,8 @@ function add2(n) {
   return n + two 
 }
 
-var funkyFunction = function() {
-  return function() {
+var funkyFunction = function(outsidefunction) {
+  return function(insidefunction) {
     return "FUNKY!"
   }
 }
@@ -25,7 +25,7 @@ var funkyFunction = function() {
 
 var theFunk = funkyFunction() 
 
-  console.log (theFunk())
+  console.log (theFunk()())
 
 
 
