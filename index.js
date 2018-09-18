@@ -25,7 +25,7 @@ var funkyFunction = function() {
 
 var theFunk = funkyFunction() 
 
-  console.log (funky Funcion())
+  console.log (funky Function())
 
 
 
