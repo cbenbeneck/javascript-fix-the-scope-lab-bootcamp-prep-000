@@ -24,7 +24,7 @@ var funkyFunction = function(outsidefunction) {
 // NOTE: you only need to modify the code below this line.
 
 var theFunk = funkyFunction()
-  console.log 
+  console.log(theFunk()())
 
 
 
